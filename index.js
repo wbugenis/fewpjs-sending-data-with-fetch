@@ -19,4 +19,3 @@ function submitData(name, email){
     })
     .catch(error => document.body.innerHTML = error.message)
 }
-console.log(submitData("john", "email@email.com"))
